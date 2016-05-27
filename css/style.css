@@ -1,0 +1,135 @@
+@keyframes fly {
+    0% { left:-60px; }
+    100% { left: 100%; }
+}
+
+body {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin:0;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-center {
+    vertical-align: middle;
+    display: inline;
+}
+
+.semi-transparent {
+    background-color: rgba(255,255,255,0.7);
+}
+
+#msp-logo {
+    max-width: 35px;
+}
+
+#azure {
+    background-image: url('../images/azure-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+#html {
+    background-image: url('../images/html-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+#css {
+    background-image: url('../images/css-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+#js {
+    background-image: url('../images/js-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+#js-extended {
+    background-image: url('../images/js-extended-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+#azure-2 {
+    background-image: url('../images/azure-2-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top:0.1px;
+}
+
+.content-box {
+    width: 31%;  
+    margin-top: 13%;
+    padding:50px;  
+}
+
+.material {
+    margin-top: 5px;
+}
+
+.material > li {
+    list-style-image: url('../images/checked-mark.png');
+}
+
+#footer {
+    background-color: black;
+    color:white;
+    padding: 30px 0;
+}
+
+.cloud {
+    position: absolute;
+    width: 60px;
+    left: -60px;
+}
+
+.cloud img {
+    width: 100%;
+}
+
+.fly {
+    animation: fly 22s infinite linear;
+}
